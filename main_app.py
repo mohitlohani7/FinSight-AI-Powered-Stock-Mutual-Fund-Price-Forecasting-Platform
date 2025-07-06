@@ -49,7 +49,7 @@ if st.sidebar.button("📥 Fetch & Forecast"):
         else:
             st.success("✅ Real-time data downloaded!")
 
-            # -------- Clean Candlestick + Volume Plot --------
+            # -------- Candlestick + Volume Plot --------
             st.subheader("📊 OHLC + Volume Chart")
 
             fig = go.Figure()
@@ -92,7 +92,7 @@ if st.sidebar.button("📥 Fetch & Forecast"):
             # -------- Prophet Forecast --------
             st.subheader(f"📈 Forecast for Next {forecast_days} Days")
 
-            prophet_df = df[['Date', 'Close']].rename(columns={"Date": "ds", "Close": "y"})
+            prophet_df = df[['Date', 'Close']].rename(columns={"Date": "ds", "y": "y"})
             prophet_df.dropna(inplace=True)
 
             model = Prophet()
