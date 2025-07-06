@@ -1,8 +1,8 @@
 streamlit
 yfinance
-plotly>=5.0.0
-pystan==2.19.1.1
+plotly
 prophet
+pystan==2.19.1.1
 scikit-learn
 pandas
 numpy
