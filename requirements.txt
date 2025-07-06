@@ -1,8 +1,8 @@
 streamlit
 yfinance
-plotly
-prophet
+plotly>=5.0.0
 pystan==2.19.1.1
+prophet
 scikit-learn
 pandas
 numpy
