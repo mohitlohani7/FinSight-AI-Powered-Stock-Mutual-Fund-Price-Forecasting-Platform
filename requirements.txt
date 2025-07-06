@@ -3,3 +3,5 @@ pandas
 matplotlib
 prophet
 streamlit
+plotly        ✅ ← add this line
+scikit-learn  ✅ ← recommended for MAE/RMSE if not installed
