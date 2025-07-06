@@ -1,5 +1,8 @@
-yfinance
-pandas
-matplotlib
-prophet
 streamlit
+yfinance
+prophet
+pystan==2.19.1.1
+plotly>=5.0.0
+scikit-learn
+pandas
+numpy
