@@ -1,1 +1,0 @@
-# FinSight-AI-Powered-Stock-Mutual-Fund-Price-Forecasting-Platform
